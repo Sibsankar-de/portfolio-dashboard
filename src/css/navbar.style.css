@@ -1,0 +1,31 @@
+.sp-nav-header {
+    position: sticky;
+    top: 0;
+}
+
+.sp-navbar {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 1em;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 3px 0 #00000047;
+}
+
+.sp-nav-logo-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+
+    & img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.sp-nav-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-self: end;
+}

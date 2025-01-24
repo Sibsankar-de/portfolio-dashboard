@@ -1,0 +1,49 @@
+.sp-project-list-container{
+    margin-top: 1em;
+}
+
+.sp-project-list{
+    padding-left: 0;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.sp-project-list-item{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    background-color: #c9c9c917;
+    box-shadow: 0px 4px 9px 0 #00000042;
+}
+
+.sp-project-list-proj-img-box img{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+    background-color: #efefef;
+}
+
+.sp-project-lt-item-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    width: 100%;
+}
+
+.sp-project-title-box{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+
+    & h5{
+        margin-bottom: 0;
+    }
+}
+
+.sp-proj-update-date-box{
+    justify-self: end;
+}

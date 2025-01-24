@@ -1,0 +1,12 @@
+[
+    {
+        "type": "repository",
+        "name": "Git repository",
+        "placeholder":"Enter repository url"
+    },
+    {
+        "type": "website",
+        "name": "Visit website",
+        "placeholder":"Enter website url"
+    }
+]
